@@ -1,0 +1,154 @@
+body {
+    background: linear-gradient(135deg, #121212, #1e1e1e, #0f0f0f);
+    color: #F5F5F5;
+    font-family: Arial;
+    padding: 40px;
+}
+
+#barra {
+    background-color: #C5A047;
+    color: #121212;
+    text-align: left;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+#redes{
+    display: flex;
+    gap: 155px;
+    flex-wrap: wrap;
+
+}
+#equipos {
+    display: flex;
+    justify-content: center; 
+    gap: 40px;              
+    flex-wrap: wrap;         
+    margin-top: 20px;
+}
+
+.titulo {
+    text-align: center;
+    background-color: #1e1e1edc;
+    color: #C5A047;
+    padding: 20px;
+    border: 3px solid #C5A047;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 40px;
+}
+
+.principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.descripcion {
+    margin-top: 20px;
+    color: #F5F5F5;
+    font-size: 16px;
+}
+
+.datos {
+    width: 60%;
+}
+
+
+.dropdown {
+    position: relative;
+    text-align: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+  .dropdown-content img {
+    width: 350px; 
+    height: auto;
+    display: block;
+  }
+
+
+.dropdown:hover .dropdown-content {
+    display:block;
+}
+
+
+h2, h3, h4, h5, h6 {
+    color: #B0B0B0;
+}
+
+.foto {
+    width: 15%;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.imagenmia {
+    width: 100%;
+    max-width: 350px;
+    border: 6px solid #C5A047;
+    border-radius: 15px;
+}
+
+.seccion {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 25px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+ol, ul {
+    line-height: 2;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #C5A047;
+    color: #121212;
+    padding: 12px 25px;
+    border-radius: 12px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    color: #C5A047;
+    padding: 10px;
+    border: 2px solid #C5A047;
+}
+
+td {
+    padding: 10px;
+    border: 2px solid #B0B0B0;
+}
+
+.fondogris {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #B0B0B0;
+    font-size: 14px;
+}
