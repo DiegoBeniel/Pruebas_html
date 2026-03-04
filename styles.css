@@ -22,7 +22,7 @@ body {
 #equipos {
     display: flex;
     justify-content: center; 
-    gap: 40px;              
+    gap: 400px;              
     flex-wrap: wrap;         
     margin-top: 20px;
 }
@@ -63,6 +63,11 @@ body {
     cursor: pointer;
 }
 
+.dropdown p {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
 
 .dropdown-content{
     display: none;
@@ -100,6 +105,7 @@ h2, h3, h4, h5, h6 {
     max-width: 350px;
     border: 6px solid #C5A047;
     border-radius: 15px;
+    box-shadow: 0px 10px 40px rgba(255, 193, 77, 0.7);
 }
 
 .seccion {
